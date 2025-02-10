@@ -1,0 +1,102 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    max-width: 500px;
+}
+
+/* Preview Box */
+.preview-box {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="color"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #333;
+}
+
+/* CSS Value Box */
+.cssvalue {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #444;
+    background: #2e2e2e;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.copy-btn {
+    background: #3498db;
+    color: white;
+}
+
+.random-btn {
+    background: #f39c12;
+    color: white;
+}
+
+.reset-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
